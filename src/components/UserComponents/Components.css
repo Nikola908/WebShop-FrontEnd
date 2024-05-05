@@ -1,0 +1,63 @@
+.shopBox{
+   width: 100%;
+   margin-top: 10px;
+   color: #7c7979;
+   /* background-color: #2f3138; */
+    height: auto;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.button:hover{
+color: pink;
+text-decoration: underline;
+text-decoration-color: #44d62c;
+transform: scale(1.1,1.1)
+}
+*{
+    margin: 0;
+}
+
+ /* 
+ colors: #222 - tamno sivo 
+ background-color: #18181a; tamnije sivo
+ */
+.productPaper:hover{
+    transform: scale(1.1,1.1)
+}
+
+.productPaper{
+    display: flex;
+    height: 100%;
+    transition: all 0.5s ease;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;  
+}
+
+.categoriesNav{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+/* border-bottom: 2px solid;
+border-color: #44d62c; */
+background-color: #18181a;
+
+}
+.buttonUnderLine{
+    color: #44d62c;
+    cursor: pointer;
+    :hover{
+        text-decoration: underline;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: #44d62c;
+    }
+}
+.buttonUnderLine:hover{
+    text-decoration: underline !important;
+    color: #44d62c;
+}
